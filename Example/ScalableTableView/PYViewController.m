@@ -7,6 +7,7 @@
 //
 
 #import "PYViewController.h"
+#import "ScalableTableView-Prefix.pch"
 
 @interface PYViewController ()
 
@@ -16,6 +17,8 @@
 
 - (void)viewDidLoad
 {
+//    ScalableTableView *w = [[ScalableTableView alloc]init];
+    
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
 }

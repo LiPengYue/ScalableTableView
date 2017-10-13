@@ -1,0 +1,6 @@
+framework module ScalableTableView {
+  umbrella header "ScalableTableView-umbrella.h"
+
+  export *
+  module * { export * }
+}
