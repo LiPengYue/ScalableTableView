@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ScalableTableView_Example' do
+  pod 'ScalableTableView', :path => '../'
+
+  target 'ScalableTableView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
